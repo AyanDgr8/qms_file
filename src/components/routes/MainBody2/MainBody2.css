@@ -1,0 +1,77 @@
+/* src/components/routes/MainBody/MainBody/MainBody.css */
+
+
+.mainbody-searchh{
+    display: flex;
+    margin-right: 1rem;
+    background-color:#364C63 ;
+    padding:0;
+    align-items: center;
+    height: 18vh;
+    overflow: hidden;
+}
+
+.mainb-firstt{
+    width: 50%;
+    border-right: 2px solid;
+    border-color: white;
+    margin-top: -0.25rem;
+}
+
+.mainb-first-search{
+    margin-top: -0.25rem;
+    margin-bottom: -0.5rem;
+}
+
+.sed{
+    max-width: 90%;
+    margin: 1rem;
+}
+
+.span-w{
+    width: 30%;
+    height: 1rem;
+    line-height: normal;
+    margin: -0.15rem;
+}
+
+.inp-w{
+    width: 70%;
+    height: 1rem;
+    line-height: normal;
+    margin: -0.15rem;
+    transition: height 0.3s ease, font-size 0.3s ease;
+}
+
+.inp-w:focus {
+    height: 1.25rem;
+    font-size: 0.75em;
+}
+
+.mainb-secondd{
+    border:none;
+    margin: 0;
+    width: 50%;
+    margin-top: -0.9rem;
+}
+
+.clr-srchh{
+    background-color: white;
+    color: grey;
+    margin-left:1.5rem;
+    margin-top: -0.75rem;
+    border: none;
+    font-size: 0.9em;
+    height: 1.5rem;
+    padding: 0.1rem;
+    line-height: normal;
+    border-radius: 10px;
+    width: 8vw;
+
+}
+
+.clr-srchh:hover{
+    background-color: rgba(236, 236, 236, 0.857);
+    color: black;
+}
+

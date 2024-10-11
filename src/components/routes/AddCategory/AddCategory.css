@@ -1,0 +1,147 @@
+/* src/components/routes/Sidebar/AddCategory/AddCategory.css */
+
+.add-category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 80vh;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.add-headi {
+    font-size: 1.8em;
+    color: #EF6F53;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.inp-boxes {
+    width: 30%;
+    font-size: 1em;
+    padding: 0.25rem;
+    margin: 0 auto 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-subheadi {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: #EF6F53;
+    margin-top: 1rem;
+}
+
+.word-inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem; /* Space between input fields */
+    margin-bottom: 1rem;
+}
+
+.wordd-input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(25% - 0.5rem); /* Adjust width to fit 5 items per row with gap */
+    margin-bottom: 0.5rem;
+}
+
+.inpt-box {
+    width: calc(100% - 2rem); /* Adjust width to fit within the container */
+    font-size: 0.75em;
+    padding: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trash {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-left: 0.5rem; /* Space between input and trash icon */
+}
+
+.trash:hover {
+    transform: scale(1.1);
+}
+
+.btnn {
+    font-size: 0.9em;
+    padding: 0.1rem;
+    border-radius: 5px;
+    width: 8vw;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addmore {
+    background-color: #364C63;
+    color: white;
+    margin: 0.5rem auto;
+    font-size: 0.75em;
+}
+
+.addmore:hover {
+    background-color: #151f2a;
+}
+
+.addcate {
+    background-color: #EF6F53;
+    color: white;
+    margin: 1rem auto;
+    width: 15vw;
+}
+
+.addcate:hover {
+    background-color: #fe2f00;
+}
+
+.added-cate {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #364C63;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.word-list {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    margin-left: 1rem;
+}
+
+.word-item {
+    margin: 0;
+    margin-left: 2rem;
+}

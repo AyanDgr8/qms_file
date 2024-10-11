@@ -1,0 +1,152 @@
+/* src/components/routes/MainBody/MainBody/MainBody.css */
+
+
+.mainbody-search{
+    display: flex;
+    margin-right: 1rem;
+    background-color:#364C63 ;
+    padding:0;
+    align-items: center;
+    height: 18vh;
+    overflow: hidden;
+}
+
+.mainb-first{
+    width: 50%;
+    border-right: 2px solid;
+    border-color: white;
+    margin-top: -1rem;
+}
+
+
+.sed{
+    max-width: 90%;
+    margin: 1rem;
+}
+
+.span-ww{
+    width: 30%;
+    height: 1rem;
+    line-height: normal;
+}
+
+.inp-ww{
+    width: 70%;
+    height: 1rem;
+    line-height: normal;
+    transition: height 0.3s ease, font-size 0.3s ease;
+}
+
+.inp-ww:focus {
+    height: 1.25rem;
+    font-size: 0.75em;
+}
+
+.phrase-word{
+    font-weight:700 ;
+    background-color:#364C63 ;
+    color: white;
+    border: none;
+}
+
+
+
+.srch-btns{
+    margin-left: 4.5rem;
+    height: 1rem;
+    line-height: normal;
+    
+}
+
+.clr-srch{
+    background-color: white;
+    color: grey;
+    margin-left:1.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.9em;
+    height: 1.5rem;
+    line-height: normal;
+    padding: 0.1rem;
+    border-radius: 10px;
+    border: none;
+    width: 8vw;
+
+}
+
+.clr-srch:hover{
+    background-color: rgba(236, 236, 236, 0.857);
+    color: black;
+}
+
+.addi{
+    margin-top: -0.1rem;
+    margin-bottom: -0.1rem;
+
+}
+
+.mainb-second{
+    border:none;
+    margin: 0;
+    width: 50%;
+}
+
+.find-contain{
+    margin-top: 0.25rem;
+    margin-left: 1rem;
+
+}
+
+.text-fnd{
+    background-color:#364C63 ;
+    border: none;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.do-any{
+    background-color: whitesmoke;
+    color: grey;
+    width:4vw;
+    height:3.5vh;
+    border: none;
+    padding: 0.1rem;
+    font-size: 0.8em;
+    line-height: normal;
+}
+
+.do-any:hover{
+    background-color: whitesmoke;
+    color: black; ;
+}
+
+.form-control.time {
+    background-color: whitesmoke;
+    color: grey;
+    border: none;
+    height: 3.5vh;
+    font-size: 1em;
+}
+
+.secs-mins{
+    background-color: whitesmoke;
+    color: grey;
+    width:4vw;
+    height:3.5vh;
+    padding: 0.1rem;
+    border: none;
+    font-size: 0.8em;
+    line-height: normal;
+    margin-left:1rem;
+    margin-right:6rem;
+
+}
+
+.secs-mins:hover{
+    background-color: whitesmoke;
+    color: black; ;
+}
+
+.srcsec{
+    margin-top: 0.25rem;
+}
